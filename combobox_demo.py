@@ -6,7 +6,6 @@ import tkFont
 from Tkinter import *
 from ttk import *
 
-
 # Get flyer name module
 def foo(event):
     #print v.get()
@@ -30,9 +29,6 @@ var = StringVar()
 label1 = Label(labelframe, font="Tahoma 11", text="Select Flyer")
 label1.place(x=10,y=18)
 
-
-
-files = []
 # here in this list you need to populate it with the data from MonoDB
 options = ['','rcwhalen','JaJillian','smb50','vickie_risbie']
 v = StringVar()#a string variable to hold user selection
